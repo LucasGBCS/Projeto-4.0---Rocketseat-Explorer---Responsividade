@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Bg_light: #ECE9FD;
+    --Text_Dark: #090039;
+    --Text_Dark_gray: rgba(10, 0, 57, 0.64);
+    font-size: 62.5%;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    background: var(--Bg_light);
+
+    padding: 6.0rem 2.3rem 6.6rem;
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+}
