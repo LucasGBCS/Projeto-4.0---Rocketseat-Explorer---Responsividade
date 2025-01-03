@@ -8,6 +8,7 @@
     --Bg_light: #ECE9FD;
     --Text_Dark: #090039;
     --Text_Dark_gray: rgba(10, 0, 57, 0.64);
+    --Text_Dark_Accent: #7158EF;
     font-size: 62.5%;
 }
 ul {
@@ -16,13 +17,121 @@ ul {
 
 body {
     background: var(--Bg_light);
+    font-family: 'Epilogue', sans-serif;
 
     padding: 6.0rem 2.3rem 6.6rem;
 }
 
-h1 {
-    font-family: 'Epilogue', sans-serif;
+main {
+    max-width: 33.0rem;
+    margin: 0 auto;
+}
 
+main p:first-child {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    letter-spacing: 0.3rem;
+    color: var(--Text_Dark_Accent);
+    text-transform: uppercase;
+
+    margin-bottom: 1.7rem;
+}
+
+h1 {
+    font-weight: 800;
     font-size: 4.0rem;
     line-height: 4.8rem;
+
+    color: var(--Text_Dark);
+
+    margin-bottom: 1.5rem;
+}
+
+h1 + p {
+    font-family: Epilogue;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.2rem;
+
+    color: var(--Text_Dark_gray);
+    margin-bottom: 3.2rem;
+}
+
+a {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    text-decoration: none;
+    color: var(--Text_Dark);
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 7.2rem;
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o número e o texto */
+    gap: 3.8rem; /* Espaço entre o número e o texto */
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem; 
+    color: var(--Text_Dark);
+    width: 25.7rem;
+}
+
+ul li + li {
+    margin-top: 3.2rem; 
+}
+
+ul li span {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 7.2rem; 
+    height: 8.0rem; 
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+    letter-spacing: 0.02em;
+    color: var(--Text_Dark);
+}
+
+ul li p {
+    margin: 0; 
+    line-height: 1.5; 
+    display: inline-block; 
+}
+/* Media queries*/
+@media (min-width: 700px) {
+    
+    body {
+        padding-top: 8rem;
+    }
+    main {
+        max-width: 1021px;
+        display: flex;
+        gap: 10rem;
+    }
+
+    main > div {
+        max-width: 484px;
+    }
+
+    ul li {
+        gap: 5.3rem;
+        max-width: 450px;
+        align-items: center;
+        
+    }
+
+
 }
