@@ -18,6 +18,10 @@ Este projeto é uma introdução à responsividade, desenvolvido como parte do c
 - Utilização de Flexbox para alinhamento e distribuição dos elementos.
 - Estilização com variáveis CSS para facilitar a manutenção e a consistência do design.
 
+## 📝 Resultado Final
+<img target="_blank" src="https://github.com/user-attachments/assets/63db69d6-1db9-4d3e-accb-279c7cbe40aa" min-width="250px" max-width="250px" width="250px"  alt="" >
+<img target="_blank" src="https://github.com/user-attachments/assets/3f46812e-4925-4cc9-a813-7bba62043b62" min-width="500px" max-width="500px" width="500px"  alt="" >
+
 ## Como Executar o Projeto
 
 1. Clone este repositório:
